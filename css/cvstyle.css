@@ -2,6 +2,7 @@
   --primary-color:rgb(0,0,85);
   --secondary-color: rgb(0,0,128);
   --shadow-color:rgb(0,0,255);
+  --font-size: 18px;
 }
 
 * {
@@ -10,7 +11,10 @@
   box-sizing: border-box;       
 }
 body {
-  color:var(--primary-color);
+  color:var(--primary-color);  
+}
+p {
+  font-size: var(--font-size);
 }
 .colors {
   display: flex;
